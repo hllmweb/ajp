@@ -8,7 +8,7 @@ function Acomodacoes(){
                 <div className="item-images">
                     <div className="item-text">
                         <div className="item-title">
-                            Acomodações com você nunca viu
+                            Acomodações como você nunca viu
                         </div>
                         <div className="item-btn">
                             <button>Veja nossas Suítes</button>
