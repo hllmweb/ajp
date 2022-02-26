@@ -5,7 +5,7 @@ function Motor(){
     const [fixo, setFixo] = useState(false);
     const handleScrollTop = () =>{
         console.log(window.screen.height);
-        if(window.scrollY > 500){
+        if(window.scrollY > 0){
             setFixo(true);
         }else{
             setFixo(false);
