@@ -11,11 +11,16 @@
 }
 .item:first-child{
     background-color: transparent;
+    z-index: 5;
+}
+.item:last-child{
+    z-index: 6;
 }
 .item-images{
     position: relative;
     object-fit: cover;
     overflow: hidden;
+   
 }
 .item-images img{
     width: 100%;
@@ -46,7 +51,7 @@
 .item-btn{
     margin-top:15px;
 }
-.item-btn button{
+.item-btn a{
     position: relative;
     padding:5px 20px;
     color:#FFF;
@@ -62,8 +67,9 @@
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    text-decoration: none;
 }
-.item-btn button:hover{
+.item-btn a:hover{
     background-color: #597640;
 }
 .item:last-child{

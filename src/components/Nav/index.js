@@ -9,11 +9,10 @@ function Nav(){
                 <ul>
                     <li><Link to="/">O Hotel</Link></li>
                     <li><Link to="/acomodacoes">Acomodações</Link></li>
-                    <li><Link to="/acomodacoes">Gastronomia</Link></li>
-                    <li><Link to="/acomodacoes">Passeios</Link></li>
-                    <li><Link to="/acomodacoes">Experiências</Link></li>
-                    <li><Link to="/acomodacoes">Eventos</Link></li>
-                    <li><Link to="/acomodacoes">Contato</Link></li>
+                    <li><Link to="/passeios">Passeios</Link></li>
+                    <li><Link to="/experiencias">Experiências</Link></li>
+                    <li><Link to="/eventos">Eventos</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                     
                     <div className="menu-extra">
                         <div className="menu-translate">

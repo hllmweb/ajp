@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function Acomodacoes(){
@@ -11,7 +12,7 @@ function Acomodacoes(){
                             Acomodações como você nunca viu
                         </div>
                         <div className="item-btn">
-                            <button>Veja nossas Suítes</button>
+                            <Link to="/acomodacoes">Veja nossas Suítes</Link>
                         </div>
                     </div>
                     <img src={process.env.PUBLIC_URL+'/assets/img/acomodacoes-principal.png'} 
@@ -33,7 +34,7 @@ function Acomodacoes(){
                             Experimente a sensação de exclusividade e liberdade, hospedando-se em nossa magífica Suíte Júnior, totalmente equipado  para você e sua família viver essa experiência inesquecível.
                         </div>
 
-                        <a href="" className="btn-link">Ver Suíte</a>
+                        <Link to="/acomodacoes/suite_junior" className="btn-link">Ver Suíte</Link>
 
                     </div> 
 
@@ -49,7 +50,7 @@ function Acomodacoes(){
                         Experimente a sensação de exclusividade e liberdade, hospedando-se em nosso magnífico Suíte Master, totalmente equipado para você e sua família viver essa experiência inesquecível.
                         </div>
 
-                        <a href="" className="btn-link">Ver Suíte</a>
+                        <Link to="/acomodacoes/suite_master" className="btn-link">Ver Suíte</Link>
 
                     </div> 
                 </div>

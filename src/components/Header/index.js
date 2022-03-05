@@ -1,5 +1,5 @@
 import './style.css';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Logo from './../Logo';
 import Nav from './../Nav';
 
@@ -25,7 +25,6 @@ function Header(){
                 </div>
                 <img src={process.env.PUBLIC_URL+'/assets/img/slide/img1.png'} alt="Amazon Jungle Palace"/>
                 
-                {/* header */}
             </div>
         </>
     );

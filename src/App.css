@@ -9,32 +9,41 @@
     font-family: 'Montserrat', sans-serif;
 */
 :root{
-  --secondary: #37562F;
+  --background: #37562F;
+  --secondary: #638547;
+  --scrollbar: #4d4d57;
+  --scrollbar-background: transparent;
 }
 html{
   scrollbar-width: thin;
   scrollbar-color: var(--secondary) transparent;
+  background: var(--background);
 }
 
-
+/*
 ::-webkit-scrollbar {
   width: 0.2rem;
-}
-/* Track */
+}*/
+/* Track
 ::-webkit-scrollbar-tracke {
   background: transparent;
   border-radius: 0.25rem;
-}
-/* Handle */
+} */
+/* Handle 
 ::-webkit-scrollbar-thumb {
   background: var(--secondary);
   border-radius: 0.2rem;
-}
+}*/
 
 
 html, body{
   font-family: 'Montserrat', sans-serif;
   font-size:100%;
+  background-color: #FFF; /*remover depois*/
+}
+body{
+  scrollbar-color: var(--scrollbar) var(--scrollbar-background);
+  background-color: #FFF;
 }
 .container{
   max-width: 1200px;

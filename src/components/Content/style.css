@@ -1,0 +1,59 @@
+.page-content{
+    position: relative;
+    padding:20px 0;
+}
+.swiper-slide{
+    overflow: hidden;
+}
+.page-content .section-wrapper{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.page-content .section-wrapper-item:first-child{
+    padding:0 30px;
+}
+.page-content .section-wrapper-item-description .btn{
+    display: inline-block;
+    margin: 30px 10px;
+    background-color: #688B4A;
+    border-radius: 4px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+.page-content .section-wrapper-item-description .btn-outline{
+    display: inline-block;
+    margin: 30px 10px;
+    border:1px solid #688B4A;
+    border-radius: 4px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #688B4A;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition:  all 0.5s;
+}
+
+.section-wrapper-item-description .btn-outline:hover{
+    display: inline-block;
+    margin: 30px 10px;
+    background-color: #688B4A;
+    border-radius: 4px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}

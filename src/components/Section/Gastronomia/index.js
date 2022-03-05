@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './style.css';
 
 function Gastronomia(){
@@ -23,7 +24,7 @@ function Gastronomia(){
                             </div>
 
                             <div className="section-wrapper-item-btn">
-                                <button>Conheça Mais</button>
+                                <Link to="/gastronomia" className="btn">Conheça Mais</Link>
                             </div>
 
                         </div>

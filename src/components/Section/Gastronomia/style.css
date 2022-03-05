@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    padding: 0 0 20px 0;
+    padding: 0 0 30px 0;
     color: #37562F;
 }
 .section-wrapper{
@@ -40,11 +40,12 @@
     letter-spacing: 0.02em;
     padding:0 40px;
     color: #434343; 
+    vertical-align: top;
 }
 .section-wrapper-item-btn{
     margin:30px 0; 
 }
-.section-wrapper-item-btn button{
+.section-wrapper-item-btn .btn{
     position: relative;
     padding:5px 20px;
     color:#FFF;
@@ -60,4 +61,5 @@
     border-radius: 4px;
     cursor: pointer;
     outline: none;
+    text-decoration: none;
 }
