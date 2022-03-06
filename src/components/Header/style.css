@@ -28,6 +28,7 @@
     background: linear-gradient(180deg, rgba(11,15,10,0.8589636538209033) 0%, rgba(0,0,0,0.08585441012342432) 100%);
     flex-direction: row;
     justify-content: space-between;
+    position: relative;
 }
 .header_top.fixo{
     width: 100%;
@@ -62,7 +63,13 @@
         transform: scale(1.5);
     }
  }
-
+.menu-burger{
+    position: absolute;
+    right: 10px;
+    top:20px;
+    z-index: 9999;
+    color:#FFF;
+}
 
 
 

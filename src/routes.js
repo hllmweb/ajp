@@ -13,7 +13,7 @@ import Gastronomia from "./pages/Gastronomia";
 
   const Routes = () => {
       return(
-        <BrowserRouter>
+        <BrowserRouter basename={'/'}>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/acomodacoes" component={Acomodacoes} />
@@ -22,6 +22,7 @@ import Gastronomia from "./pages/Gastronomia";
                 <Route exact path="/experiencias" component={Experiencias} />
                 <Route exact path="/eventos" component={Eventos} />
                 <Route exact path="/gastronomia" component={Gastronomia} />
+                
             </Switch>
         </BrowserRouter>
       );

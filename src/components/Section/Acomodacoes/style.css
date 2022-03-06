@@ -87,7 +87,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    left:-40px;
+
    
 }
 .item-card-box{
@@ -97,8 +97,12 @@
     background-color: #FFFFFF;
    
 }
+.item-card-box:first-child{
+    position: relative;
+    margin-left:-40px;
+}
 .item-card-box:last-child{
-    margin-left: 40px;
+    margin-left: 5%;
 }
 .item-card-box{
     background: #FFFFFF;
