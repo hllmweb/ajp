@@ -9,9 +9,7 @@ import Footer from './../../components/Rodape';
 
 
 function Home(){
-    
-    
-   
+
     return(
         <>
             <Header/>
@@ -23,6 +21,7 @@ function Home(){
             <Footer />
         </>
     );
+
 }
 
 export default Home;

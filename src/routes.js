@@ -10,6 +10,7 @@ import Passeios from "./pages/Passeios";
 import Experiencias from "./pages/Experiencias";
 import Eventos from "./pages/Eventos";
 import Gastronomia from "./pages/Gastronomia";
+import Contato from "./pages/Contato";
 
   const Routes = () => {
       return(
@@ -22,6 +23,8 @@ import Gastronomia from "./pages/Gastronomia";
                 <Route exact path="/experiencias" component={Experiencias} />
                 <Route exact path="/eventos" component={Eventos} />
                 <Route exact path="/gastronomia" component={Gastronomia} />
+
+                
                 
             </Switch>
         </BrowserRouter>

@@ -6,21 +6,18 @@ import NavResponsivo from '../NavResponsivo';
 import { BiMenu } from "react-icons/bi";
 import { Link } from 'react-router-dom';
 
-function Header(){ 
-    const [visible, setVisible] = useState(false)
-  
+function Header(){
+    const [visible, setVisible] = useState(false)  
     const handleScroll = () =>{
         if(window.scrollY >= 100){
             setVisible(true);
         }else{
             setVisible(false);
         }
-    }
+}
     
-    window.addEventListener("scroll", handleScroll);
-
-
-    const handleMenuResponsivo = () => {
+ window.addEventListener("scroll", handleScroll);
+ const handleMenuResponsivo = () => {
         document.querySelector("#menu-responsivo").classList.toggle("none"); 
     } 
     return(
